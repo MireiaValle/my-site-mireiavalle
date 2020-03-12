@@ -1,8 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: My research interests include social-ecological systems, biodiversity conservation, climate change and reslience
 education:
   courses:
   - course: Ph.D. in Biodiversity and Ecosystem Functioning and Management
@@ -45,6 +44,4 @@ user_groups:
 - Visitors
 ---
 
-Mireia Valle is a postdoctoral researcher from the Basque Centre for Climate Change (BC3) who has been awarded  a  postdoctoral  fellowship  by  the  Basque  Government,  which  covers  two  years  in  aforeign  research center and a third year in a research institution in the Basque Country. She is at the first year of her research stage at the National Center for Ecological Analysis and Synthesis-NCEAS working under the supervision of Dr. Benjamin S. Halpern and Dr. Unai Pascual from the BC3.
-
-With her research, she wants to envision the social-ecological future of seascapes under climate change to help us address some of the problems that marine ecosystems are facing around the world. To do so, she will focus on marine fish functional and cultural traits
+Mireia Valle is a Environmental Scientist studying social-ecological systems within the marine environment. With her research, she wants to envision the social-ecological future of seascapes under climate change to help us address some of the problems that marine ecosystems are facing around the world. To do so, she will focus on marine fish functional and cultural traits.

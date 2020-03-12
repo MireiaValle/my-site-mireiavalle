@@ -521,6 +521,18 @@ Three
     
     <item>
       <title>External Project</title>
+      <link>/project/climate-resilient-fisheries/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/climate-resilient-fisheries/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
       <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/external-project/</guid>
@@ -708,10 +720,30 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>An example conference paper</title>
+      <title>Rocky reef ecosystems in Ecuador</title>
+      <link>/project/ecuador/</link>
+      <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>/project/ecuador/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Projecting future distribution of the seagrass Zostera noltii under global warming and sea level rise</title>
       <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
       <guid>/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>/publication/valleetal2014/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/valleetal2014/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

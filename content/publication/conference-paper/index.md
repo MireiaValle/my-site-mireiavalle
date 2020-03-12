@@ -1,54 +1,42 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In future decades, coastal ecosystems are expected to be exposed to increased risk of experiencing adverse consequences related to climate change, exacerbated by human induced pressures. The seagrass Zostera noltii forms meadows mainly within the intertidal zone, leading it to be particularly vulnerable to seawater temperature increase and sea level rise (SLR). Considering the presently declining situation and the predicted scenarios of increasing seawater temperature and SLR by the end of the 21st century, we assessed the response of Z. noltii to climate change (i) accounting for changes in seawater temperature at its entire biogeographical range level; and (ii) under SLR scenarios at estuary level (Oka estuary, Basque Country, south-eastern Bay of Biscay). Objectives were addressed coupling habitat suitability models with climate change simulations. By the end of the 21st century, seawater temperature increase will trigger a northward distributional shift of 888km in the suitable habitat of the species, and a retreat of southernmost populations. The loss of southernmost populations due to climate change may imply future conservation problems. In contrast, SLR and derived changes in current velocities are expected to induce the landward migration of the species in the Oka estuary, increasing the available suitable intertidal areas (14–18%) to limits imposed by anthropogenic barriers. This modelling approach could lead to an advanced understanding of the species’ response to climate change effects; moreover, the information generated might support conservation actions towards the sites where the habitat would remain suitable for the species under climate change.
 authors:
 - admin
-- Robert Ford
-date: "2013-07-01T00:00:00Z"
-doi: ""
+- Guillem Chust
+- Andrea del Campo
+- Mary S. Wisz
+- Steffen M. Olsen
+- Joxe Mikel Garmendia
+- Ángel Borja
+date: "2014-02-01T00:00:00Z"
+doi: "https://doi.org/10.1016/j.biocon.2013.12.017"
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 links:
 - name: Custom Link
-  url: http://example.org
+  url: https://www.sciencedirect.com/science/article/pii/S0006320713004382#f0015
 projects:
-- internal-project
+- phD-project
 publication: In *Source Themes Conference*
 publication_short: In *STC*
 publication_types:
 - "1"
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2014-02-01T00:00:00Z"
 slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 tags:
-- Source Themes
-title: An example conference paper
+- Climate model Global warming Habitat suitability models Hydromorphological model Projections Sea level rise Seawater surface temperature
+title: Projecting future distribution of the seagrass Zostera noltii under global warming and sea level rise
 url_code: '#'
 url_dataset: '#'
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_pdf: "#"
 url_poster: '#'
 url_project: ""
 url_slides: ""
 url_source: '#'
 url_video: '#'
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 
