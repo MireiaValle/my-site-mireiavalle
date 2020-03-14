@@ -2,6 +2,6 @@
 header:
   caption: ""
   image: ""
-title: Posts
-view: 2
+title: Mobility and internationalization
+view: 6
 ---
