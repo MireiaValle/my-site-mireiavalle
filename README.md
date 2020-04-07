@@ -13,3 +13,5 @@ blogdown::update_hugo()
 #To visualize your site
 blogdown::serve_site()
 
+#Create netlify.toml file
+file.create("netlify.toml")
