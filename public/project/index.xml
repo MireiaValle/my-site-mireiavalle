@@ -25,6 +25,180 @@
     </item>
     
     <item>
+      <title>Data Wrangling and Visualization</title>
+      <link>/project/datawrangling/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/project/datawrangling/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;attach-packages-read-in-and-explore-the-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Attach packages, read in and explore the data&lt;/h2&gt;
+&lt;p&gt;Attach (load) packages with &lt;code&gt;library()&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Read in NOAA Commercial Fisheries Landing data (1950 - 2017) Accessed from: &lt;a href=&#34;https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/&#34; class=&#34;uri&#34;&gt;https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/&lt;/a&gt; Source: Fisheries Statistics Division of the NOAA Fisheries&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#using here packages
+us_landings &amp;lt;- read_csv(here(&amp;quot;content&amp;quot;, &amp;quot;project&amp;quot;, &amp;quot;DataWrangling&amp;quot;, &amp;quot;data&amp;quot;, &amp;quot;noaa_fisheries.csv&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Parsed with column specification:
+## cols(
+##   Year = col_double(),
+##   State = col_character(),
+##   `AFS Name` = col_character(),
+##   `Landings (pounds)` = col_double(),
+##   `Dollars (USD)` = col_character()
+## )&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Go exploring a bit:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(us_landings)
+View(us_landings)
+names(us_landings)
+head(us_landings)
+tail(us_landings)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-cleaning-to-get-salmon-landings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Data cleaning to get salmon landings&lt;/h2&gt;
+&lt;p&gt;First: tidying the entire data frame&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;landings_tidy &amp;lt;- us_landings %&amp;gt;% 
+  janitor::clean_names() %&amp;gt;% #names to lower case and snake
+  mutate(state = str_to_lower(state),#overwrite the state column changing the content to lower case
+        afs_name = str_to_lower(afs_name)) %&amp;gt;% #overwrite the afs_name column changing the content to lower case
+  mutate(dollars_num = parse_number(dollars_usd))#take only the numbers and create a new column&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, getting just the salmon:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;salmon_landings &amp;lt;- landings_tidy %&amp;gt;% 
+  mutate(afs_clean = str_remove(afs_name, pattern = &amp;quot;aggregate&amp;quot;)) %&amp;gt;% #remove string pattern 
+  filter(str_detect(afs_clean, pattern = &amp;quot;salmon&amp;quot;)) %&amp;gt;% 
+  separate (afs_clean, into = c(&amp;quot;group&amp;quot;, &amp;quot;species&amp;quot;), sep = &amp;quot;,&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Find some grouped summary data:&lt;/p&gt;
+&lt;p&gt;Find annual total US landings and dollar value (summing across all states) for each TYPE of salmon using “group_by ()” + “summarize()”&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;salmon_summary &amp;lt;- salmon_landings %&amp;gt;% 
+  group_by(year, species) %&amp;gt;% 
+  summarize(
+    tot_landings = sum (landings_pounds),
+    tot_value = sum (dollars_num)
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;make-a-graph-of-us-commercial-fisheries-value-by-species-over-time-with-ggplot2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Make a graph of US commercial fisheries value by species over time with &lt;code&gt;ggplot2&lt;/code&gt;&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;salmon_landings_graph &amp;lt;- ggplot(salmon_summary, aes(x = year, y = tot_landings, group = species)) +
+  geom_line(aes(color = species)) +
+  theme_bw() +
+  labs(x = &amp;quot;year&amp;quot;, y = &amp;quot;US commercial salmon landings (pounds)&amp;quot;)
+
+salmon_landings_graph&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/project/DataWrangling/index_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;commercial-fisheries-value-by-state&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2015 commercial fisheries value by state&lt;/h2&gt;
+&lt;p&gt;Now, let’s create a finalized table of the top 5 states (by total commercial fisheries value) for 2015 .&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;state_value &amp;lt;- landings_tidy %&amp;gt;% 
+  filter(year %in% c(2015)) %&amp;gt;% 
+  group_by(state) %&amp;gt;% 
+  summarize(
+    state_value = sum(dollars_num, na.rm = TRUE),
+    state_landings = sum(landings_pounds, na.rm = TRUE)
+  ) %&amp;gt;% 
+  arrange(-state_value) %&amp;gt;% 
+  head(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;making-a-html-table&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Making a HTML table&lt;/h2&gt;
+&lt;p&gt;First, we’ll create it as a finalized data frame:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;state_table &amp;lt;- state_value %&amp;gt;% 
+  mutate(`Fisheries value ($ millions)` = round(state_value / 1e6, 2),
+         `Landings (million pounds)` = round(state_landings / 1e6, 1)) %&amp;gt;% 
+  select(-state_value, -state_landings) %&amp;gt;% 
+  rename(State = state) %&amp;gt;% 
+  mutate(State = str_to_title(State))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, use &lt;code&gt;kable()&lt;/code&gt; + &lt;code&gt;kableExtra&lt;/code&gt; to nicely format it for HTML:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;kable(state_table) %&amp;gt;% 
+  kable_styling(bootstrap_options = &amp;quot;striped&amp;quot;, 
+                full_width = FALSE) %&amp;gt;% 
+  add_header_above(c(&amp;quot;&amp;quot;, &amp;quot;2015 US commercial fisheries - top 5 states by value&amp;quot; = 2))&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34;table table-striped&#34; style=&#34;width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;border-bottom:hidden&#34; colspan=&#34;1&#34;&gt;
+&lt;/th&gt;
+&lt;th style=&#34;border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; &#34; colspan=&#34;2&#34;&gt;
+&lt;div style=&#34;border-bottom: 1px solid #ddd; padding-bottom: 5px; &#34;&gt;
+2015 US commercial fisheries - top 5 states by value
+&lt;/div&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+State
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Fisheries value ($ millions)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Landings (million pounds)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Alaska
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1750.20
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+6015.1
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Maine
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+628.95
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+252.5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Massachusetts
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+523.67
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+259.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Louisiana
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+369.62
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+1068.5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Washington
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+221.54
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+148.8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>my-new-project</title>
       <link>/project/my-new-project/</link>
       <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>

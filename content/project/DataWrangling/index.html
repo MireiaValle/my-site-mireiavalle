@@ -1,0 +1,188 @@
+---
+title: "Data Wrangling and Visualization"
+author: 'Mireia Valle'
+date: '2020-02-23'
+slug: DataWrangling
+categories: []
+#tags:
+#  - Academic
+#  - R Markdown
+#  - Data wrangling
+#  - Data visualization
+subtitle: 'Lab 1 ESM 244 Allison Horst'
+summary: 'Data tidying and wrangling, creating HTML table and visualization'
+authors: [Mireia Valle]
+lastmod: '2020-02-23T15:02:39-08:00'
+featured: no
+image:
+  caption: 'US commercial fisheries value by species over time'
+  focal_point: 'smart'
+  preview_only: yes
+projects: []
+---
+
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
+
+
+<div id="attach-packages-read-in-and-explore-the-data" class="section level2">
+<h2>Attach packages, read in and explore the data</h2>
+<p>Attach (load) packages with <code>library()</code>:</p>
+<p>Read in NOAA Commercial Fisheries Landing data (1950 - 2017) Accessed from: <a href="https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/" class="uri">https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/</a> Source: Fisheries Statistics Division of the NOAA Fisheries</p>
+<pre class="r"><code>#using here packages
+us_landings &lt;- read_csv(here(&quot;content&quot;, &quot;project&quot;, &quot;DataWrangling&quot;, &quot;data&quot;, &quot;noaa_fisheries.csv&quot;))</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   Year = col_double(),
+##   State = col_character(),
+##   `AFS Name` = col_character(),
+##   `Landings (pounds)` = col_double(),
+##   `Dollars (USD)` = col_character()
+## )</code></pre>
+<p>Go exploring a bit:</p>
+<pre class="r"><code>summary(us_landings)
+View(us_landings)
+names(us_landings)
+head(us_landings)
+tail(us_landings)</code></pre>
+</div>
+<div id="data-cleaning-to-get-salmon-landings" class="section level2">
+<h2>Data cleaning to get salmon landings</h2>
+<p>First: tidying the entire data frame</p>
+<pre class="r"><code>landings_tidy &lt;- us_landings %&gt;% 
+  janitor::clean_names() %&gt;% #names to lower case and snake
+  mutate(state = str_to_lower(state),#overwrite the state column changing the content to lower case
+        afs_name = str_to_lower(afs_name)) %&gt;% #overwrite the afs_name column changing the content to lower case
+  mutate(dollars_num = parse_number(dollars_usd))#take only the numbers and create a new column</code></pre>
+<p>Now, getting just the salmon:</p>
+<pre class="r"><code>salmon_landings &lt;- landings_tidy %&gt;% 
+  mutate(afs_clean = str_remove(afs_name, pattern = &quot;aggregate&quot;)) %&gt;% #remove string pattern 
+  filter(str_detect(afs_clean, pattern = &quot;salmon&quot;)) %&gt;% 
+  separate (afs_clean, into = c(&quot;group&quot;, &quot;species&quot;), sep = &quot;,&quot;)</code></pre>
+<p>Find some grouped summary data:</p>
+<p>Find annual total US landings and dollar value (summing across all states) for each TYPE of salmon using “group_by ()” + “summarize()”</p>
+<pre class="r"><code>salmon_summary &lt;- salmon_landings %&gt;% 
+  group_by(year, species) %&gt;% 
+  summarize(
+    tot_landings = sum (landings_pounds),
+    tot_value = sum (dollars_num)
+  )</code></pre>
+</div>
+<div id="make-a-graph-of-us-commercial-fisheries-value-by-species-over-time-with-ggplot2" class="section level2">
+<h2>Make a graph of US commercial fisheries value by species over time with <code>ggplot2</code></h2>
+<pre class="r"><code>salmon_landings_graph &lt;- ggplot(salmon_summary, aes(x = year, y = tot_landings, group = species)) +
+  geom_line(aes(color = species)) +
+  theme_bw() +
+  labs(x = &quot;year&quot;, y = &quot;US commercial salmon landings (pounds)&quot;)
+
+salmon_landings_graph</code></pre>
+<p><img src="/project/DataWrangling/index_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+</div>
+<div id="commercial-fisheries-value-by-state" class="section level2">
+<h2>2015 commercial fisheries value by state</h2>
+<p>Now, let’s create a finalized table of the top 5 states (by total commercial fisheries value) for 2015 .</p>
+<pre class="r"><code>state_value &lt;- landings_tidy %&gt;% 
+  filter(year %in% c(2015)) %&gt;% 
+  group_by(state) %&gt;% 
+  summarize(
+    state_value = sum(dollars_num, na.rm = TRUE),
+    state_landings = sum(landings_pounds, na.rm = TRUE)
+  ) %&gt;% 
+  arrange(-state_value) %&gt;% 
+  head(5)</code></pre>
+</div>
+<div id="making-a-html-table" class="section level2">
+<h2>Making a HTML table</h2>
+<p>First, we’ll create it as a finalized data frame:</p>
+<pre class="r"><code>state_table &lt;- state_value %&gt;% 
+  mutate(`Fisheries value ($ millions)` = round(state_value / 1e6, 2),
+         `Landings (million pounds)` = round(state_landings / 1e6, 1)) %&gt;% 
+  select(-state_value, -state_landings) %&gt;% 
+  rename(State = state) %&gt;% 
+  mutate(State = str_to_title(State))</code></pre>
+<p>Now, use <code>kable()</code> + <code>kableExtra</code> to nicely format it for HTML:</p>
+<pre class="r"><code>kable(state_table) %&gt;% 
+  kable_styling(bootstrap_options = &quot;striped&quot;, 
+                full_width = FALSE) %&gt;% 
+  add_header_above(c(&quot;&quot;, &quot;2015 US commercial fisheries - top 5 states by value&quot; = 2))</code></pre>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="border-bottom:hidden" colspan="1">
+</th>
+<th style="border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="2">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+2015 US commercial fisheries - top 5 states by value
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:right;">
+Fisheries value ($ millions)
+</th>
+<th style="text-align:right;">
+Landings (million pounds)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Alaska
+</td>
+<td style="text-align:right;">
+1750.20
+</td>
+<td style="text-align:right;">
+6015.1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Maine
+</td>
+<td style="text-align:right;">
+628.95
+</td>
+<td style="text-align:right;">
+252.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Massachusetts
+</td>
+<td style="text-align:right;">
+523.67
+</td>
+<td style="text-align:right;">
+259.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Louisiana
+</td>
+<td style="text-align:right;">
+369.62
+</td>
+<td style="text-align:right;">
+1068.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Washington
+</td>
+<td style="text-align:right;">
+221.54
+</td>
+<td style="text-align:right;">
+148.8
+</td>
+</tr>
+</tbody>
+</table>
+</div>

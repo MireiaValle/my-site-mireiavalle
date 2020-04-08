@@ -10,8 +10,8 @@ primary_light = "#ebf2f1"
 primary_dark = "#ebf2f1"
 
 # Links
-link = "rgb(255,255,255)"
-link_hover = "rgb(54, 54, 54)"
+link = "#2bb5b9"
+link_hover = "#37d6db"
 
 # Menu
 menu_primary = "#e6e6e6"
