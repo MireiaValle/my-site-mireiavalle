@@ -9,34 +9,34 @@ authors:
 - Joxe Mikel Garmendia
 - Ángel Borja
 date: "2014-02-01T00:00:00Z"
-doi: "https://doi.org/10.1016/j.biocon.2013.12.017"
+#doi: "https://doi.org/10.1016/j.biocon.2013.12.017"
 featured: true
 image:
   caption: ''
   focal_point: ""
   preview_only: false
 links:
-- name: Custom Link
+- name: Link
   url: https://www.sciencedirect.com/science/article/pii/S0006320713004382#f0015
 projects:
 - phD-project
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+#publication: In *Source Themes Conference*
+#publication_short: In *STC*
 publication_types:
 - "1"
 publishDate: "2014-02-01T00:00:00Z"
-slides: example
+#slides: example
 summary: 
 tags:
 - Climate model Global warming Habitat suitability models Hydromorphological model Projections Sea level rise Seawater surface temperature
 title: Projecting future distribution of the seagrass Zostera noltii under global warming and sea level rise
-url_code: '#'
-url_dataset: '#'
-url_pdf: "#"
-url_poster: '#'
-url_project: ""
-url_slides: ""
-url_source: '#'
-url_video: '#'
+#url_code: "https://www.sciencedirect.com/science/article/pii/S0006320713004382#f0015"
+#url_dataset: '#'
+url_pdf: "files/papers/Valleetal2014.pdf"
+#url_poster: '#'
+#url_project: ""
+#url_slides: ""
+#url_source: '#'
+#url_video: '#'
 ---
 
