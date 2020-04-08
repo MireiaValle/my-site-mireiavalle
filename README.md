@@ -23,3 +23,10 @@ blogdown::serve_site()
 
 #Create netlify.toml file
 file.create("netlify.toml")
+
+
+#To be added
+#Projects: Sweden/PhD
+#Publications: all 
+#awards: IPBES
+#Courses: list of courses

@@ -28,27 +28,12 @@
   </url>
   
   <url>
-    <loc>/project/futuresea/</loc>
-    <lastmod>2020-03-11T10:26:48-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2020-03-11T10:26:48-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-03-11T10:26:48-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/test/</loc>
-    <lastmod>2020-03-11T10:26:48-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
+    <lastmod>2020-02-23T15:02:39-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/climate-resilient-fisheries/</loc>
     <lastmod>2020-02-23T15:02:39-08:00</lastmod>
   </url>
   
@@ -58,23 +43,23 @@
   </url>
   
   <url>
+    <loc>/project/futuresea/</loc>
+    <lastmod>2020-02-23T15:02:39-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/mireia-valle/</loc>
     <lastmod>2020-02-23T15:02:39-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/awesome/</loc>
-    <lastmod>2020-01-09T15:26:48-08:00</lastmod>
+    <loc>/project/</loc>
+    <lastmod>2020-02-23T15:02:39-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/my-new-project/</loc>
-    <lastmod>2020-01-09T15:26:48-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/web/</loc>
-    <lastmod>2020-01-09T15:26:48-08:00</lastmod>
+    <loc>/project/rockyreedecosystems/</loc>
+    <lastmod>2020-02-23T15:02:39-08:00</lastmod>
   </url>
   
   <url>
@@ -128,31 +113,6 @@
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/climate-resilient-fisheries/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -169,6 +129,11 @@
   
   <url>
     <loc>/categories/demo/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -195,16 +160,6 @@
   <url>
     <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/functional-ecology/</loc>
-    <lastmod>2020-01-09T15:26:48-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/ecuador/</loc>
-    <lastmod>2020-01-09T15:26:48-08:00</lastmod>
   </url>
   
   <url>

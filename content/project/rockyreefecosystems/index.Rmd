@@ -1,19 +1,33 @@
 ---
-title: Rocky reef ecosystems in Ecuador
-author: ''
-date: '2014-10-30'
-slug: ecuador
+title: "Rocky Reef Ecosystems"
+author: 'Mireia Valle'
+date: '2020-02-23'
+slug: rockyreedecosystems
 categories: []
-tags:
-  - functional ecology
-subtitle: ''
-summary: ''
-authors: []
-lastmod: '2020-01-09T15:26:48-08:00'
-featured: yes
+#tags:
+#  - Academic
+#  - R Markdown
+#  - Data wrangling
+#  - Data visualization
+subtitle: 'Research project along the Ecuadorian Coast'
+summary: 'Improving the understanding of the status of rocky reef ecosystems in Ecuadorian coast'
+authors: [Mireia Valle]
+lastmod: '2020-02-23T15:02:39-08:00'
+featured: no
 image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
+  caption: 'research summary'
+  focal_point: 'smart'
+  preview_only: yes
 projects: []
 ---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Activities: 
+
+1) Integral monitoring of marine benthic invertebrates (corals and echinoderms): mapping and modellinh
+
+2) Growth rate assessment of two reef-building coral species *Pocillopora damicornis* and *Pocillopora capitata* based on field experiments

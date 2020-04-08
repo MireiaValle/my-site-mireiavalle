@@ -1,11 +1,35 @@
 ---
-date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
+title: "Climate Resilient Fisheries"
+author: 'Mireia Valle'
+date: '2020-02-23'
+slug: Climate-Resilient-Fisheries
+categories: []
+#tags:
+#  - Academic
+#  - R Markdown
+#  - Data wrangling
+#  - Data visualization
+subtitle: 'Science for Nature and People Partnership Working Group'
+summary: 'Synthesizing interdisciplinary information to identify key features of resilience and develop guidance on approaches, processes, and tools that can help operationalize resilience in fisheries around the world'
+authors: [Mireia Valle]
+lastmod: '2020-02-23T15:02:39-08:00'
+featured: no
 image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
-tags:
-- Demo
-title: External Project
+  caption: 'SNAPP Team photo'
+  focal_point: 'smart'
+  preview_only: yes
+projects: []
 ---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Goals: 
+
+1) Provide consensus view of the key features of climate-resilient fisheries and examples of application of these features in fishery management systems. 
+
+2) Develop a decision support tool to help managers identify resilience capacity and needs, and to provide guidance on approaches to enhance resilience. 
+
+3) Work with leaders of fishery management organizations to tailor results and products for global, national, and regional application in a variety of fisheries.
