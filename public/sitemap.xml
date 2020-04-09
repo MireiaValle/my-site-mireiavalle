@@ -163,32 +163,47 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
+    <loc>/authors/borja-a/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/andrea-del-campo/</loc>
+    <loc>/authors/chust-g/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/climate-model-global-warming-habitat-suitability-models-hydromorphological-model-projections-sea-level-rise-seawater-surface-temperature/</loc>
+    <loc>/tags/climate-model/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/guillem-chust/</loc>
+    <loc>/authors/del-campo-a/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/joxe-mikel-garmendia/</loc>
+    <loc>/authors/garmendia-jm/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/mary-s.-wisz/</loc>
+    <loc>/tags/global-warming/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/habitat-suitability-models/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hydromorphological-model/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/olsen-sm/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -198,7 +213,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>/tags/projections/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -208,17 +223,32 @@
   </url>
   
   <url>
-    <loc>/authors/steffen-m.-olsen/</loc>
+    <loc>/tags/sea-level-rise/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/angel-borja/</loc>
+    <loc>/tags/seawater/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/mobility/</loc>
+    <loc>/tags/surface-temperature/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/valle-m/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/wisz-ms/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
   </url>
   
 </urlset>

@@ -12,11 +12,11 @@ blogdown::update_hugo()
 
 # Create your new site
 
-new_site(theme = "gcushen/hugo-academic", 
-         sample = TRUE, 
-         theme_example = TRUE, 
-         empty_dirs = TRUE,
-         to_yaml = TRUE)
+#new_site(theme = "gcushen/hugo-academic", 
+#         sample = TRUE, 
+#         theme_example = TRUE, 
+#         empty_dirs = TRUE,
+#         to_yaml = TRUE)
 
 #To visualize your site
 blogdown::serve_site()
@@ -30,3 +30,4 @@ file.create("netlify.toml")
 #Publications: all 
 #awards: IPBES
 #Courses: list of courses
+#Data-science page: ESM244/ECODATASIENCE/ RLADIES/ CARPENTRIES/ 

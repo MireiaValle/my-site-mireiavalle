@@ -9,3 +9,7 @@ heading_font = "Fredericka the Great"
 body_font = "Montserrat"
 nav_font = "Roboto"
 mono_font = "Roboto Mono"
+
+# Font size
+font_size = "12"
+font_size_small = "10"
