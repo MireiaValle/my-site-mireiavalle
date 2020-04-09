@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rendo F | </title>
+    <link>/authors/rendo-f/</link>
+      <atom:link href="/authors/rendo-f/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rendo F</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Oct 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Rendo F</title>
+      <link>/authors/rendo-f/</link>
+    </image>
+    
+    <item>
+      <title>Connectivity, neutral theories and the assessment of species vulnerability to global change in temperate estuaries</title>
+      <link>/publication/chustetal2013/</link>
+      <pubDate>Thu, 10 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/chustetal2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
