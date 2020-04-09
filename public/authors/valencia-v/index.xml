@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valencia V | </title>
+    <link>/authors/valencia-v/</link>
+      <atom:link href="/authors/valencia-v/index.xml" rel="self" type="application/rss+xml" />
+    <description>Valencia V</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Valencia V</title>
+      <link>/authors/valencia-v/</link>
+    </image>
+    
+    <item>
+      <title>Climate change impacts on coastal and pelagic environments in the southeastern Bay of Biscay</title>
+      <link>/publication/chustetal2011/</link>
+      <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/chustetal2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
