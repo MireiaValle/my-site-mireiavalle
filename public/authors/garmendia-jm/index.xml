@@ -5,12 +5,20 @@
     <link>/authors/garmendia-jm/</link>
       <atom:link href="/authors/garmendia-jm/index.xml" rel="self" type="application/rss+xml" />
     <description>Garmendia JM</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2014 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Garmendia JM</title>
       <link>/authors/garmendia-jm/</link>
     </image>
+    
+    <item>
+      <title>Atlas de praderas marinas de España. Praderas de angiospermas marinas del País Vasco</title>
+      <link>/publication/garmendiaetal2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/garmendiaetal2015/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Projecting future distribution of the seagrass Zostera noltii under global warming and sea level rise</title>

@@ -34,15 +34,15 @@ links:
 - name: Link
   url: https://www.sciencedirect.com/science/article/pii/S0272771413003466
 
-projects:
-- phD-project
+#projects:
+#- phD-project
 
 #publication: In *Source Themes Conference*
 
 #publication_short: In *STC*
 
-#publication_types:
-#- "1"
+publication_types:
+- "2"
 
 publishDate: "2013-10-10T00:00:00Z"
 

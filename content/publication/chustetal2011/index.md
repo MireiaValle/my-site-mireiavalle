@@ -30,15 +30,15 @@ links:
 - name: Link
   url: http://www.int-res.com/abstracts/cr/v48/n2-3/p307-332/
 
-projects:
-- phD-project
+#projects:
+#- phD-project
 
 #publication: In *Source Themes Conference*
 
 #publication_short: In *STC*
 
-#publication_types:
-#- "1"
+publication_types:
+- "2"
 
 publishDate: "2011-08-30T00:00:00Z"
 

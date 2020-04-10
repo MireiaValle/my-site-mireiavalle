@@ -18,12 +18,12 @@ image:
 links:
 - name: Link
   url: https://www.sciencedirect.com/science/article/pii/S0006320713004382#f0015
-projects:
-- phD-project
+#projects:
+#- phD-project
 #publication: In *Source Themes Conference*
 #publication_short: In *STC*
-#publication_types:
-#- "1"
+publication_types:
+- "2"
 publishDate: "2014-02-01T00:00:00Z"
 #slides: example
 summary: 
