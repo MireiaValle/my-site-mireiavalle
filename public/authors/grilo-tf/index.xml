@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grilo TF | </title>
+    <link>/authors/grilo-tf/</link>
+      <atom:link href="/authors/grilo-tf/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grilo TF</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Grilo TF</title>
+      <link>/authors/grilo-tf/</link>
+    </image>
+    
+    <item>
+      <title>Seasonal and latitudinal variation in seagrass mechanical traits across Europe, The influence of local nutrient status and morphometric plasticity</title>
+      <link>/publication/soissonsetal2017/</link>
+      <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/soissonsetal2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
