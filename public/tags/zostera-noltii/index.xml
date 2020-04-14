@@ -5,12 +5,20 @@
     <link>/tags/zostera-noltii/</link>
       <atom:link href="/tags/zostera-noltii/index.xml" rel="self" type="application/rss+xml" />
     <description>Zostera noltii</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Zostera noltii</title>
       <link>/tags/zostera-noltii/</link>
     </image>
+    
+    <item>
+      <title>Mapping estuarine habitats using airborne hyperspectral imagery, with special focus on seagrass meadows</title>
+      <link>/publication/valleetal2015b/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/valleetal2015b/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modelling suitable estuarine habitats for Zostera noltii, using Ecological Niche Factor Analysis and Bathymetric LiDAR</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Habitat classification | </title>
+    <link>/tags/habitat-classification/</link>
+      <atom:link href="/tags/habitat-classification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Habitat classification</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Habitat classification</title>
+      <link>/tags/habitat-classification/</link>
+    </image>
+    
+    <item>
+      <title>Mapping estuarine habitats using airborne hyperspectral imagery, with special focus on seagrass meadows</title>
+      <link>/publication/valleetal2015b/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/valleetal2015b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

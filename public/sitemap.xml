@@ -658,7 +658,17 @@
   </url>
   
   <url>
+    <loc>/authors/brun-f/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/brun-fg/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/cardoso-p/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -699,6 +709,11 @@
   
   <url>
     <loc>/authors/godet-l/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/grilo-t/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -868,6 +883,41 @@
   </url>
   
   <url>
+    <loc>/tags/abiotic-pollination/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/density-dependence/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/habitat-fragmentation/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/vantussenbroek2016/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/seed-production/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/van-der-heide-t/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/van-tussenbroek-b/</loc>
+    <lastmod>2016-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -915,6 +965,51 @@
   <url>
     <loc>/tags/transplants/</loc>
     <lastmod>2015-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/compact-airborne-spectrographic-imager/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dehouck-a/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/estuaries/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/habitat-classification/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/lafon-v/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/valleetal2015b/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/pala-v/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/remote-sensing/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/zostera-noltii/</loc>
+    <lastmod>2015-10-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1349,11 +1444,6 @@
   
   <url>
     <loc>/tags/restoration/</loc>
-    <lastmod>2011-08-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/zostera-noltii/</loc>
     <lastmod>2011-08-20T00:00:00+00:00</lastmod>
   </url>
   
