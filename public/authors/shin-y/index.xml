@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shin Y | </title>
+    <link>/authors/shin-y/</link>
+      <atom:link href="/authors/shin-y/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shin Y</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Shin Y</title>
+      <link>/authors/shin-y/</link>
+    </image>
+    
+    <item>
+      <title>Exploring the usefulness of scenario archetypes in science policy processes, experience across IPBES assessments</title>
+      <link>/publication/sitasandharmackovaetal2019/</link>
+      <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sitasandharmackovaetal2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
