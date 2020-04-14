@@ -5,12 +5,28 @@
     <link>/tags/basque-country/</link>
       <atom:link href="/tags/basque-country/index.xml" rel="self" type="application/rss+xml" />
     <description>Basque Country</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Basque Country</title>
       <link>/tags/basque-country/</link>
     </image>
+    
+    <item>
+      <title>Atlas de praderas marinas de España. Praderas de angiospermas marinas del País Vasco</title>
+      <link>/publication/omettoetal2019/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/omettoetal2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Praderas de angiospermas marinas del País Vasco. In Atlas de praderas marinas de España.</title>
+      <link>/publication/garmendiaetal2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/garmendiaetal2015/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Climate change impacts on coastal and pelagic environments in the southeastern Bay of Biscay</title>

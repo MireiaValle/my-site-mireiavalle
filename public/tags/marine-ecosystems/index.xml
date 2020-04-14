@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>marine ecosystems | </title>
+    <link>/tags/marine-ecosystems/</link>
+      <atom:link href="/tags/marine-ecosystems/index.xml" rel="self" type="application/rss+xml" />
+    <description>marine ecosystems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>marine ecosystems</title>
+      <link>/tags/marine-ecosystems/</link>
+    </image>
+    
+    <item>
+      <title>Biodiversidad, ecosistemas y recursos marinos</title>
+      <link>/publication/gorostiagaetal2011/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/gorostiagaetal2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biodiversidad, ecosistemas y recursos marinos</title>
+      <link>/publication/munozetal2019/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/munozetal2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

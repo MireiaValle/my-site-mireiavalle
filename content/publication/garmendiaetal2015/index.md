@@ -41,9 +41,11 @@ publishDate: "2015-01-01T00:00:00Z"
 summary: 
 
 tags:
+- seagrasses
+- Basque Country
 
 
-title: Atlas de praderas marinas de España. Praderas de angiospermas marinas del País Vasco 
+title: Praderas de angiospermas marinas del País Vasco. In Atlas de praderas marinas de España. 
 
 #url_code: ""
 #url_dataset: '#'

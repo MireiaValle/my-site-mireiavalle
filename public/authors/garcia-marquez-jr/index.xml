@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>García Márquez JR | </title>
+    <link>/authors/garcia-marquez-jr/</link>
+      <atom:link href="/authors/garcia-marquez-jr/index.xml" rel="self" type="application/rss+xml" />
+    <description>García Márquez JR</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>García Márquez JR</title>
+      <link>/authors/garcia-marquez-jr/</link>
+    </image>
+    
+    <item>
+      <title>Chapter 5 Current and future interactions between nature and society. In IPBES (2018) The IPBES regional assessment report on biodiversity and ecosystem services for the Americas.</title>
+      <link>/publication/klattetal2018/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/klattetal2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

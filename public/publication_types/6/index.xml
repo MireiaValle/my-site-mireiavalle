@@ -5,7 +5,7 @@
     <link>/publication_types/6/</link>
       <atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>6</title>
@@ -13,7 +13,23 @@
     </image>
     
     <item>
+      <title>Chapter 5 Current and future interactions between nature and society. In IPBES (2018) The IPBES regional assessment report on biodiversity and ecosystem services for the Americas.</title>
+      <link>/publication/klattetal2018/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/klattetal2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Atlas de praderas marinas de España. Praderas de angiospermas marinas del País Vasco</title>
+      <link>/publication/omettoetal2019/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/omettoetal2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Praderas de angiospermas marinas del País Vasco. In Atlas de praderas marinas de España.</title>
       <link>/publication/garmendiaetal2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/publication/garmendiaetal2015/</guid>
@@ -25,6 +41,14 @@
       <link>/publication/gorostiagaetal2011/</link>
       <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
       <guid>/publication/gorostiagaetal2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biodiversidad, ecosistemas y recursos marinos</title>
+      <link>/publication/munozetal2019/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/munozetal2019/</guid>
       <description></description>
     </item>
     
