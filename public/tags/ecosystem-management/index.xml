@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ecosystem management | </title>
+    <title>ecosystem management | </title>
     <link>/tags/ecosystem-management/</link>
       <atom:link href="/tags/ecosystem-management/index.xml" rel="self" type="application/rss+xml" />
-    <description>Ecosystem management</description>
+    <description>ecosystem management</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Ecosystem management</title>
+      <title>ecosystem management</title>
       <link>/tags/ecosystem-management/</link>
     </image>
     
@@ -17,6 +17,22 @@
       <link>/publication/valleetal2015a/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       <guid>/publication/valleetal2015a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing the performance of species distribution models of Zostera marina, Implications for conservation</title>
+      <link>/publication/valleetal2013/</link>
+      <pubDate>Sun, 20 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/valleetal2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling suitable estuarine habitats for Zostera noltii, using Ecological Niche Factor Analysis and Bathymetric LiDAR</title>
+      <link>/publication/valleetal2011/</link>
+      <pubDate>Sat, 20 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/valleetal2011/</guid>
       <description></description>
     </item>
     
