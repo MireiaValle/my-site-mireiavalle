@@ -5,7 +5,7 @@ abstract: Seagrass meadows are essential and ecologically important habitats in 
 
 authors:
 - Valle M
-- Garmendia J
+- Garmendia JM
 - Chust G
 - Franco J
 - Borja A

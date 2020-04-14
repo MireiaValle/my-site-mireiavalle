@@ -7,7 +7,7 @@ authors:
 - Borja A
 - Chust G
 - Galparsoro I
-- Garmendia J
+- Garmendia JM
 
 date: "2011-08-20T00:00:00Z"
 
