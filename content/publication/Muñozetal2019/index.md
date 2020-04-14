@@ -1,22 +1,13 @@
 ---
-abstract: Evaluación de los cambios biológicos ocurridos durante las últimas décadas (especialmente durante el periodo 1980-2010) en distintos ecosistemas costeros y pelágicos y su relación con cambios en las variables climáticas e hidrológicas. La adquisición de estos conocimientos nos permitirá predecir los impactos en escenarios futuros y diseñar las medidas de adaptación. 
+abstract: When we speak about conserving nature, we are really talking about taking care of our future, because nature provides essential resources for our survival and enjoyment. We asked an international group of scientists working on different environmental issues worldwide to identify important practical actions that we can all do to help conserve nature. We obtained nearly 100 responses and grouped them into three main categories 1 Actions to reduce our ecological footprint; 2 Actions to conserve nature; and 3 Actions that help us connect with nature. We briefly explain actions that can be performed daily to reduce our impact on nature, and provide some useful links for further reading.
 
 authors:
-- Gorostiaga JM
-- Irigoien X
-- Borja A
-- Fernandes JA
-- Chifflet M
-- Gonzalez M
-- Revilla M
-- Bald J
+- Muñoz MC
 - Valle M
-- Garmendia JM
-- Valencia V
-- Fontán A
-- Chust G
+- White RL
+- Jaffé R
 
-date: "2011-08-01T00:00:00Z"
+date: "2019-06-21T00:00:00Z"
 
 #doi: ""
 
@@ -30,7 +21,7 @@ image:
 links:
 
 - name: Link
-  url: https://www.euskadi.eus/documentacion/2011/cambio-climatico-impacto-y-adaptacion-en-la-comunidad-autonoma-del-pais-vasco/web01-a2ingkli/es/
+  url: https://kids.frontiersin.org/article/10.3389/frym.2019.00084
 
 #projects:
 #- phD-project
@@ -40,25 +31,26 @@ links:
 #publication_short: In *STC*
 
 publication_types:
-- "6"
+- "2"
 
-publishDate: "2011-08-01T00:00:00Z"
+publishDate: "2019-06-21T00:00:00Z"
 
 #slides: example
 
 summary: 
 
 tags:
-- climate change
-- marine biodiversity
-- marine ecosystems
+- reduce
+- conserve nature
+- connect with nature
+- ecological footprint
 
 
-title: Biodiversidad, ecosistemas y recursos marinos
+title: How can we all help conserve nature?
 
 #url_code: ""
 #url_dataset: '#'
-url_pdf: "files/papers/gorostiagaetal2011.pdf"
+url_pdf: "files/papers/Muñoz et al 2019_Valle.pdf"
 #url_poster: '#'
 #url_project: ""
 #url_slides: ""

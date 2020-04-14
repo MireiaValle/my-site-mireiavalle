@@ -328,6 +328,41 @@
   </url>
   
   <url>
+    <loc>/tags/connect-with-nature/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/conserve-nature/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ecological-footprint/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/munozetal2019/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/munoz-mc/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/reduce/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/white-rl/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -593,6 +628,121 @@
   </url>
   
   <url>
+    <loc>/publication/reissetal2014/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/birchenough-s/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/buhl-mortensen-l/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/craeymeersch-j/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dannheim-j/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/darr-a/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/degraer-s/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ecosystem-approach/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/environmental-monitoring/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/galparsoro-i/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/gogina-m/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/habitat-suitability-modelling/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/macrofauna/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mapping/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/marine-spatial-planning-msp/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/neumann-h/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/populus-j/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/predictive-modelling/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/reiss-h/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/rengstorf-am/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/species-distribution-modelling/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/van-hoey-g/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/zettler-ml/</loc>
+    <lastmod>2014-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/climate-model/</loc>
     <lastmod>2014-02-01T00:00:00+00:00</lastmod>
   </url>
@@ -814,11 +964,6 @@
   
   <url>
     <loc>/publication/gorostiagaetal2011/</loc>
-    <lastmod>2011-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/munozetal2019/</loc>
     <lastmod>2011-08-01T00:00:00+00:00</lastmod>
   </url>
   
