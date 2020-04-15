@@ -5,7 +5,7 @@
     <link>/authors/mireia-valle/</link>
       <atom:link href="/authors/mireia-valle/index.xml" rel="self" type="application/rss+xml" />
     <description>Mireia Valle</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mireia Valle</title>
@@ -13,9 +13,34 @@
     </image>
     
     <item>
+      <title>Future Sea</title>
+      <link>/project/futuresea/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/futuresea/</guid>
+      <description>
+
+
+&lt;div id=&#34;research-objectives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Research objectives&lt;/h2&gt;
+&lt;p&gt;FutureSea’s overarching objective is to envision the future of seascapes under climate change, using a social-ecological seascape (SES) system approach, scaling down from a global ecological analysis to more socially relevant local scales that also consider distant impacts of local decision-making. To do so we have defined an integration methodology (Figure 1), which will start developing an ecological trait-based approach to explain the responses of marine biodiversity to global drivers of marine ecosystem change and the effects of biodiversity on marine ES; and will finalize with a participatory scenario modeling approach to envision sustainability transition pathways at relevant local policy level. This would lead to new insights for adaptive ecosystem management towards better marine spatial planning aiming at fostering resilient SES systems. The research objective will be approached from an interdisciplinary sustainable science perspective by combining cutting-edge ecological research on marine functional traits and climate change; and the study of complex social-ecological systems through a participatory approach, with emphasis on scenario analysis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;a trait-based approach at global scale where mapping and projections of marine biodiversity functional responses to climate change will be performed;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;linking of key biodiversity-related ecosystem functions to ES,&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;an assessment of marine protected areas (MPAs) effectiveness given socio-ecological contexts and spillover effects;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;deriving lessons relevant for the Basque Country Fishing Guild of Bizkaia to develop participatory scenarios in order to provide policy relevant information related to the implementation of adaptive ecosystem-based fishery management; and&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;a cross-scale interdisciplinary synthesis.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Climate Resilient Fisheries</title>
       <link>/project/climate-resilient-fisheries/</link>
-      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/project/climate-resilient-fisheries/</guid>
       <description>
 
@@ -32,10 +57,28 @@
     </item>
     
     <item>
-      <title>Data Wrangling and Visualization</title>
-      <link>/project/datawrangling/</link>
+      <title>Rocky Reef Ecosystems</title>
+      <link>/project/rockyreedecosystems/</link>
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/project/datawrangling/</guid>
+      <guid>/project/rockyreedecosystems/</guid>
+      <description>
+
+
+&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Activities:&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Integral monitoring of marine benthic invertebrates (corals and echinoderms): mapping and modellinh&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Growth rate assessment of two reef-building coral species &lt;em&gt;Pocillopora damicornis&lt;/em&gt; and &lt;em&gt;Pocillopora capitata&lt;/em&gt; based on field experiments&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Wrangling and Visualization</title>
+      <link>/post/datawrangling/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/post/datawrangling/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
 
@@ -201,49 +244,6 @@ Washington
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Future Sea</title>
-      <link>/project/futuresea/</link>
-      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/project/futuresea/</guid>
-      <description>
-
-
-&lt;div id=&#34;research-objectives&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Research objectives&lt;/h2&gt;
-&lt;p&gt;FutureSea’s overarching objective is to envision the future of seascapes under climate change, using a social-ecological seascape (SES) system approach, scaling down from a global ecological analysis to more socially relevant local scales that also consider distant impacts of local decision-making. To do so we have defined an integration methodology (Figure 1), which will start developing an ecological trait-based approach to explain the responses of marine biodiversity to global drivers of marine ecosystem change and the effects of biodiversity on marine ES; and will finalize with a participatory scenario modeling approach to envision sustainability transition pathways at relevant local policy level. This would lead to new insights for adaptive ecosystem management towards better marine spatial planning aiming at fostering resilient SES systems. The research objective will be approached from an interdisciplinary sustainable science perspective by combining cutting-edge ecological research on marine functional traits and climate change; and the study of complex social-ecological systems through a participatory approach, with emphasis on scenario analysis.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Activities&lt;/h2&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;a trait-based approach at global scale where mapping and projections of marine biodiversity functional responses to climate change will be performed;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;linking of key biodiversity-related ecosystem functions to ES,&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;an assessment of marine protected areas (MPAs) effectiveness given socio-ecological contexts and spillover effects;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;deriving lessons relevant for the Basque Country Fishing Guild of Bizkaia to develop participatory scenarios in order to provide policy relevant information related to the implementation of adaptive ecosystem-based fishery management; and&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;a cross-scale interdisciplinary synthesis.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rocky Reef Ecosystems</title>
-      <link>/project/rockyreedecosystems/</link>
-      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/project/rockyreedecosystems/</guid>
-      <description>
-
-
-&lt;div id=&#34;activities&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Activities:&lt;/h2&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Integral monitoring of marine benthic invertebrates (corals and echinoderms): mapping and modellinh&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Growth rate assessment of two reef-building coral species &lt;em&gt;Pocillopora damicornis&lt;/em&gt; and &lt;em&gt;Pocillopora capitata&lt;/em&gt; based on field experiments&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 &lt;/div&gt;
 </description>
     </item>

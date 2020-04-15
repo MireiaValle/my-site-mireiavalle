@@ -45,4 +45,4 @@ user_groups:
 
 ---
 
-Mireia Valle is a Environmental Scientist studying social-ecological systems within the marine environment. With her research, she wants to envision the social-ecological future of seascapes under climate change to help us address some of the problems that marine ecosystems are facing around the world. To do so, she will focus on marine fish functional and cultural traits.
+Mireia Valle is a Environmental Scientist studying social-ecological systems within the marine environment. With her research, she wants to envision the social-ecological future of seascapes under climate change to help us address some of the problems that marine ecosystems are facing around the world. To do so, she focuses on marine fish functional and cultural traits.

@@ -1,0 +1,135 @@
+---
+title: "Data Wrangling and Visualization"
+author: 'Mireia Valle'
+date: '2019-02-23'
+slug: DataWrangling
+categories: []
+#tags:
+#  - Academic
+#  - R Markdown
+#  - Data wrangling
+#  - Data visualization
+subtitle: 'Lab 1 ESM 244 Allison Horst'
+summary: 'Data tidying and wrangling, creating HTML table and visualization'
+authors: [Mireia Valle]
+lastmod: '2020-02-23T15:02:39-08:00'
+featured: no
+image:
+  caption: 'US commercial fisheries value by species over time'
+  focal_point: 'smart'
+  preview_only: yes
+projects: []
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Attach packages, read in and explore the data
+
+Attach (load) packages with `library()`:
+```{r, message = FALSE, warning = FALSE, include=FALSE}
+library (tidyverse)
+library (here) #source code
+library (janitor) #rename labs
+library (kableExtra)#format tables
+```
+
+Read in NOAA Commercial Fisheries Landing data (1950 - 2017) Accessed from: https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/ Source: Fisheries Statistics Division of the NOAA Fisheries
+```{r}
+
+#using here packages
+us_landings <- read_csv(here("content", "project", "DataWrangling", "data", "noaa_fisheries.csv"))
+
+```
+
+Go exploring a bit:
+```{r, eval = FALSE}
+summary(us_landings)
+View(us_landings)
+names(us_landings)
+head(us_landings)
+tail(us_landings)
+```
+
+## Data cleaning to get salmon landings
+
+First: tidying the entire data frame
+```{r}
+landings_tidy <- us_landings %>% 
+  janitor::clean_names() %>% #names to lower case and snake
+  mutate(state = str_to_lower(state),#overwrite the state column changing the content to lower case
+        afs_name = str_to_lower(afs_name)) %>% #overwrite the afs_name column changing the content to lower case
+  mutate(dollars_num = parse_number(dollars_usd))#take only the numbers and create a new column
+```
+
+Now, getting just the salmon:
+```{r}
+salmon_landings <- landings_tidy %>% 
+  mutate(afs_clean = str_remove(afs_name, pattern = "aggregate")) %>% #remove string pattern 
+  filter(str_detect(afs_clean, pattern = "salmon")) %>% 
+  separate (afs_clean, into = c("group", "species"), sep = ",")
+```
+
+Find some grouped summary data:
+
+Find annual total US landings and dollar value (summing across all states) for each TYPE of salmon using "group_by ()" + "summarize()"
+
+```{r}
+salmon_summary <- salmon_landings %>% 
+  group_by(year, species) %>% 
+  summarize(
+    tot_landings = sum (landings_pounds),
+    tot_value = sum (dollars_num)
+  )
+```
+
+## Make a graph of US commercial fisheries value by species over time with `ggplot2`
+
+```{r, warning = FALSE}
+salmon_landings_graph <- ggplot(salmon_summary, aes(x = year, y = tot_landings, group = species)) +
+  geom_line(aes(color = species)) +
+  theme_bw() +
+  labs(x = "year", y = "US commercial salmon landings (pounds)")
+
+salmon_landings_graph
+```
+
+
+## 2015 commercial fisheries value by state
+
+Now, let's create a finalized table of the top 5 states (by total commercial fisheries value) for 2015 .
+
+```{r}
+state_value <- landings_tidy %>% 
+  filter(year %in% c(2015)) %>% 
+  group_by(state) %>% 
+  summarize(
+    state_value = sum(dollars_num, na.rm = TRUE),
+    state_landings = sum(landings_pounds, na.rm = TRUE)
+  ) %>% 
+  arrange(-state_value) %>% 
+  head(5)
+```
+
+## Making a HTML table
+
+First, we'll create it as a finalized data frame:
+```{r}
+state_table <- state_value %>% 
+  mutate(`Fisheries value ($ millions)` = round(state_value / 1e6, 2),
+         `Landings (million pounds)` = round(state_landings / 1e6, 1)) %>% 
+  select(-state_value, -state_landings) %>% 
+  rename(State = state) %>% 
+  mutate(State = str_to_title(State))
+```
+
+Now, use `kable()` + `kableExtra` to nicely format it for HTML:
+
+```{r}
+kable(state_table) %>% 
+  kable_styling(bootstrap_options = "striped", 
+                full_width = FALSE) %>% 
+  add_header_above(c("", "2015 US commercial fisheries - top 5 states by value" = 2))
+```

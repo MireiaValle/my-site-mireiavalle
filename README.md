@@ -27,7 +27,7 @@ file.create("netlify.toml")
 
 #To be added
 #Projects: Sweden/PhD
-#Publications: all 
-#awards: IPBES
+
+
 #Courses: list of courses
 #Data-science page: ESM244/ECODATASIENCE/ RLADIES/ CARPENTRIES/ 

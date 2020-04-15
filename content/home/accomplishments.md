@@ -29,14 +29,24 @@ date_format = "Jan 2006"
   description = "Post-doctoral funding to conduct a research project under collaboration with a Basque Research Center and an International Research Center"
   
 [[item]]
+  organization = "Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)"
+  organization_url = ""
+  title = "Awarded IPBES Fellowship"
+  url = "https://ipbes.net/ipbes-fellowship-programme"
+  certificate_url = ""
+  date_start = "2015-08-01"
+  date_end = ""
+  description = "The IPBES fellowship programme provides an opportunity for outstanding early-career individuals from all backgrounds and disciplines working on biodiversity and ecosystem services to participate in IPBES assessments"
+  
+[[item]]
   organization = "Postgraduate commission University of the Basque Country"
-  organization_url = "https://www.datacamp.com"
+  organization_url = ""
   title = "Extraordinary Doctoral Award"
-  url = ""
-  certificate_url = "https://www.ehu.eus/en/web/estudiosdeposgrado-graduondokoikasketak/content/-/asset_publisher/ZcG4/content/premios_extraordinarios_2017?redirect=https%3A%2F%2Fwww.ehu.eus%2Fes%2Fweb%2Festudiosdeposgrado-graduondokoikasketak%2Fdoktoregoko-sari-bereziak%3Fp_p_id%3D101_INSTANCE_W6qU%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2"
+  url = "https://www.ehu.eus/en/web/estudiosdeposgrado-graduondokoikasketak/content/-/asset_publisher/ZcG4/content/premios_extraordinarios_2017?redirect=https%3A%2F%2Fwww.ehu.eus%2Fes%2Fweb%2Festudiosdeposgrado-graduondokoikasketak%2Fdoktoregoko-sari-bereziak%3Fp_p_id%3D101_INSTANCE_W6qU%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2"
+  certificate_url = ""
   date_start = "2017-06-08"
-  date_end = "2017-06-08"
-  description = "Extraordinary award for her international doctoral thesis Seagrass meadows under a changing climate: Habitat modeling, restoration and monitoring, supervised by Dr. Guillem Chust and by Dr.Joxe Mikel Garmendia and defended through the Department of Plant Biology and Ecology"
+  date_end = ""
+  description = "Extraordinary award for her international PhD thesis, supervised by Dr. Guillem Chust and by Dr. Joxe Mikel Garmendia and defended through the Department of Plant Biology and Ecology"
 
 [[item]]
   organization = "Iñaki Goenaga – Fundación Centros Tecnológicos (IG – ZTF)"

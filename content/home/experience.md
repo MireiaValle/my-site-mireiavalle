@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2018-03-01"
   date_end = "2020-12-15"
   description = """
-Developing own research project under collaboration with BC3 and NCEAS. The project entitled FutureSea aims to envision the social-ecological future of seascapes under climate change: Integrating an ecological trait-based approach and social participatory scenario. To do so, I am using  a  functional  trait-based ecosystem approach and I will apply  participatory modelling and scenarios approach in order to provide new insight for adaptiveecosystem management and analyseways to improve policies to help vulnerable societies  that  depend  on  marine  ecosystems to  transit  towards  more  resilient  social-ecological systems recommendations."""
+Developing own research project entitled FutureSea which aims to envision the social-ecological future of seascapes under climate change: Integrating an ecological trait-based approach and social participatory scenario."""
 
 [[experience]]
   title = "Project manager"
@@ -34,7 +34,7 @@ Developing own research project under collaboration with BC3 and NCEAS. The proj
   location = "Bilbao (Basque Country)"
   date_start = "2016-10-01"
   date_end = "2018-01-31"
-  description = """Writing  research  project  proposals  and  funding  applications.  Coordination  tasks  of  the  activities involving the work of volunteers. Writing projects for CO2 compensation. Responsible for the NGO’s technical and logistical needs. Organization of monthly talks. Community communication manager of the NGO’s activities."""
+  description = """Writing  research  project  proposals  and  funding  applications.  Coordination  tasks  of  the  activities involving the work of volunteers."""
 
 [[experience]]
   title = "Project leader"
@@ -43,7 +43,7 @@ Developing own research project under collaboration with BC3 and NCEAS. The proj
   location = "Manta (Ecuador)"
   date_start = "2014-10-20"
   date_end = "2016-04-30"
-  description = """Leader of Functional ecology of rocky reef ecosystems ecosystems along the Ecuadorian coast research project for the integral  monitoring  of  the  benthic  components  of  rocky  reef  ecosystems  (corals,  macroalgae, equinoderms).  Habitat  mapping  and  modelling.  Laboratory  analysis.  Data  processing.  Writing  of reports and scientific papers. Participation in international conferences. Supervision of undergraduate thesis. Teaching Aquatic ecosystem conservation course."""
+  description = """Leader of Functional ecology of rocky reef ecosystems ecosystems along the Ecuadorian coast research project for the integral  monitoring  of  the  benthic  components  of  rocky  reef  ecosystems  (corals,  macroalgae, equinoderms)."""
 
 [[experience]]
   title = "PhD Student"
@@ -52,7 +52,7 @@ Developing own research project under collaboration with BC3 and NCEAS. The proj
   location = "Sukarrieta (Basque Country)"
   date_start = "2009-10-01"
   date_end = "2013-09-30"
-  description = """PhD Thesis entitled Seagrass meadows under a changing climate: habitat modelling, restoration and monitoring.Habitat  suitability  modelling.  Climate  change  projections.  Restoration  of  intertidal  habitats  and monitoring. Habitat mapping. Image classification. Laboratory analysis. Data processing. Writing of reports and scientific papers. Participation in international conferences."""
+  description = """PhD Thesis entitled Seagrass meadows under a changing climate: habitat modelling, restoration and monitoring.Habitat  suitability  modelling."""
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -79,6 +79,6 @@ Developing own research project under collaboration with BC3 and NCEAS. The proj
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["5px", "0", "5px", "0"]
 
 +++

@@ -1,7 +1,7 @@
 ---
 title: "Climate Resilient Fisheries"
 author: 'Mireia Valle'
-date: '2020-02-23'
+date: '2020-02-24'
 slug: Climate-Resilient-Fisheries
 categories: []
 #tags:
@@ -12,7 +12,7 @@ categories: []
 subtitle: 'Science for Nature and People Partnership Working Group'
 summary: 'Synthesizing interdisciplinary information to identify key features of resilience and develop guidance on approaches, processes, and tools that can help operationalize resilience in fisheries around the world'
 authors: [Mireia Valle]
-lastmod: '2020-02-23T15:02:39-08:00'
+lastmod: '2020-02-24T15:02:39-08:00'
 featured: no
 image:
   caption: 'SNAPP Team photo'
